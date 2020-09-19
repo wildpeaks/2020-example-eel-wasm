@@ -1,0 +1,19 @@
+# Ignore everything by default:
+/*
+/*/
+
+# Allow these files and folders:
+!/LICENSE
+!/README.md
+!/.editorconfig
+!/.gitignore
+!/node-application
+!/web-application
+!/web-library
+
+# But make sure to ignore those regardless:
+/*/node_modules
+/*/package-lock.json
+/*/dist/bundle.js
+/*/dist/mylibrary.min.js
+debug.log
