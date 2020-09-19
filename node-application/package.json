@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "devDependencies": {
+    "eel-wasm": "0.0.10",
+    "wabt": "1.0.19"
+  }
+}
