@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack -d --watch"
+  },
+  "devDependencies": {
+    "eel-wasm": "0.0.10",
+    "wabt": "1.0.19",
+    "webpack": "4.44.2",
+    "webpack-cli": "3.3.12"
+  }
+}
